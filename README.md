@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/ldystudio/uniapp-tailwind-starter/blob/main/src/static/logo.png" alt="uniapp" width="72" />
   <h2>Uniapp Tailwind Starter</h2>
-  <p>A starter template based on Uniapp, Vue 3, Vite, Tailwind CSS, UV-UI, ESLint, Prettier, TypeScript, and Bun.</p>
+  <p>A starter template based on Uniapp, Vue 3, Vite, Tailwind CSS, UV-UI, ESLint, Prettier, TypeScript.</p>
 </div>
 
 ## Table of Contents
@@ -23,7 +23,6 @@
 -   **ESLint**: Ensure code quality and consistency.
 -   **Prettier**: Code formatter to maintain a consistent style.
 -   **TypeScript**: Strongly typed programming language for JavaScript.
--   **Bun**: Modern JavaScript runtime bundler.
 
 ## Getting Started
 
@@ -31,8 +30,7 @@
 
 Ensure you have the following software installed:
 
--   ~~[Node.js](https://nodejs.org/) >=18.18.0~~
--   [Bun](https://bun.sh/) >=1.1.0
+-   [Node.js](https://nodejs.org/) >=18.18.0
 
 ### Installation
 
@@ -46,12 +44,12 @@ Ensure you have the following software installed:
 2. Install dependencies:
 
     ```bash
-    bun install
+    pnpm i
     ```
 
 3. Start the development server:
     ```bash
-    bun run dev:h5
+    pnpm run dev:h5
     or
     other
     ```

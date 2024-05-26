@@ -8,7 +8,7 @@ module.exports = {
         // 兼容小程序，将默认配置里带 .和/ 清除
     },
     variants: {},
-    plugins: [],
+    plugins: [require("tailwindcss-animate"), require("tailwind-scrollbar-hide")],
     corePlugins: {
         // 兼容小程序，将带有 * 选择器的插件禁用
         preflight: false,

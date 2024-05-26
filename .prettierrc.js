@@ -8,7 +8,6 @@ module.exports = {
     useTabs: false,
     importOrder: [
         "^(vue$)|^(vue/(.*)$)",
-        "",
         "<BUILTIN_MODULES>",
         "<TYPES>",
         "<TYPES>^[.]",
