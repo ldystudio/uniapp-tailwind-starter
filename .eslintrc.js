@@ -41,6 +41,7 @@ module.exports = {
         uni: "writable"
     },
     rules: {
+        "vue/multi-word-component-names": ["error", { ignores: ["index"] }],
         "@typescript-eslint/no-unused-vars": "warn",
         "@typescript-eslint/no-var-requires": "off"
     },
