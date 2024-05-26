@@ -1,9 +1,8 @@
-<div style="text-align: center;">
+<div align="center">
   <img src="https://github.com/ldystudio/uniapp-tailwind-starter/blob/main/src/static/logo.png" alt="uniapp" width="72" />
-  <p style="font-weight: bold;font-size: larger;">Uniapp Tailwind Starter</p>
+  <h2>Uniapp Tailwind Starter</h2>
+  <p>A starter template based on Uniapp, Vue 3, Vite, Tailwind CSS, UV-UI, ESLint, Prettier, TypeScript, and Bun.</p>
 </div>
-
-A starter template based on Uniapp, Vue 3, Vite, Tailwind CSS, UV-UI, ESLint, Prettier, TypeScript, and Bun.
 
 ## Table of Contents
 
