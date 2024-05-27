@@ -42,9 +42,10 @@
         "build:quickapp-webview-huawei": "uni build -p quickapp-webview-huawei",
         "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
         "type-check": "vue-tsc --noEmit",
-        "format": "prettier --config .prettierrc.js --ignore-path .prettierignore --check \"src/**/*.{js,jsx,ts,tsx,vue,css,html}\" --write"
+        "format": "prettier --config .prettierrc.js --check \"src/**/*.{js,jsx,ts,tsx,vue,css,html}\" --write"
     },
     "dependencies": {
+        "@climblee/uv-ui": "^1.1.20",
         "@dcloudio/uni-app": "3.0.0-4000720240327002",
         "@dcloudio/uni-app-plus": "3.0.0-4000720240327002",
         "@dcloudio/uni-components": "3.0.0-4000720240327002",

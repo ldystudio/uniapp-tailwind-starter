@@ -7,6 +7,9 @@ settings:
 importers:
     .:
         dependencies:
+            "@climblee/uv-ui":
+                specifier: ^1.1.20
+                version: 1.1.20
             "@dcloudio/uni-app":
                 specifier: 3.0.0-4000720240327002
                 version: 3.0.0-4000720240327002(@dcloudio/types@3.4.8)(postcss@8.4.38)(rollup@3.29.4)(vue@3.3.11(typescript@5.4.5))
@@ -1129,6 +1132,12 @@ packages:
         resolution:
             {
                 integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
+            }
+
+    "@climblee/uv-ui@1.1.20":
+        resolution:
+            {
+                integrity: sha512-jkyesHJsPJkF4Nap9ZmG1/ibKlxXA5M8+ntqKXwwloIsYSYL5SOKb0gyPj17aBOU1PkJpmeiZ8PwnTolhK2/HA==
             }
 
     "@dcloudio/types@3.4.8":
@@ -7560,6 +7569,8 @@ snapshots:
             to-fast-properties: 2.0.0
 
     "@bcoe/v8-coverage@0.2.3": {}
+
+    "@climblee/uv-ui@1.1.20": {}
 
     "@dcloudio/types@3.4.8": {}
 

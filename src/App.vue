@@ -12,6 +12,7 @@
     })
 </script>
 
-<style>
+<style lang="scss">
+    @import "@climblee/uv-ui/index.scss";
     @import url("styles/tailwind.css");
 </style>
