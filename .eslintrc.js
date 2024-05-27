@@ -41,9 +41,11 @@ module.exports = {
         uni: "writable"
     },
     rules: {
-        "vue/multi-word-component-names": ["error", { ignores: ["index"] }],
+        // 自定义类名为tw-开头
+        "tailwindcss/no-custom-classname": ["warn", { whitelist: ["tw\\-.*"] }],
+        "vue/multi-word-component-names": "off",
         "@typescript-eslint/no-unused-vars": "warn",
         "@typescript-eslint/no-var-requires": "off"
     },
-    ignorePatterns: ["node_modules/", "src/uni_modules", "dist/"]
+    ignorePatterns: ["node_modules/", "dist/"]
 }
