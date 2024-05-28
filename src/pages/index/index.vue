@@ -27,16 +27,7 @@
             </uv-swiper>
         </view>
         <scroll-view scroll-x class="whitespace-nowrap border-2 border-gray-300">
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
-            <view class="tw-box">scroll-x-box</view>
+            <view class="tw-box" v-for="i in 20" :key="i">box-{{ i }}</view>
         </scroll-view>
 
         <navigator
