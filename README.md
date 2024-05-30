@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/ldystudio/uniapp-tailwind-starter/blob/main/src/static/logo.png" alt="uniapp" width="72" />
+  <img src="https://s21.ax1x.com/2024/05/31/pk8iHvn.png" alt="uniapp" width="72" />
   <h2>Uniapp Tailwind Starter</h2>
   <p>A starter template based on Uniapp, Vue 3, Vite, Tailwind CSS, UV-UI, ESLint, Prettier, TypeScript.</p>
 </div>
