@@ -6,15 +6,24 @@
             src="/static/logo.png"
         />
         <!-- tailwindcss 条件渲染 -->
-        <text :class="cn('text-xl', counter.count % 2 === 0 && 'text-blue-500')">
+        <view
+            :class="
+                cn(
+                    'flex flex-row items-center gap-2 text-xl',
+                    counter.count % 2 === 0 && 'text-blue-500'
+                )
+            "
+        >
+            <Icon icon="streamline-emojis:rocket" height="24" :inline="true" />
             {{ title }}
-        </text>
+        </view>
         <uv-button
             type="primary"
             :text="'按下' + counter.count + '次'"
             @click="counter.increment"
             plain
         />
+        <view class="flex flex-row"> 123 </view>
         <view class="w-full text-center">
             <uv-swiper
                 :list="list"
@@ -42,6 +51,7 @@
 
 <script setup lang="ts">
     import { ref } from "vue"
+    import { Icon } from "@iconify/vue"
 
     import { useCounterStore } from "@/stores/counter"
     import { cn } from "@/utils"
